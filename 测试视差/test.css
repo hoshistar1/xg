@@ -1,0 +1,38 @@
+body,html{
+height: 100%;
+margin: 0;
+font-size: 16px;
+font-family: "华文仿宋";
+line-height: 1.8em;
+color: #666;
+
+}
+.pimg1{
+background-image: url(./img/东方祭.jpg);
+min-height: 100%;
+background-size: cover;
+opacity: 0.8;
+}
+.pimg2{
+background-image: url(./img/八云紫.jpg);
+min-height: 100%;
+background-size: cover;
+opacity: 0.8;
+}
+.pimg3{
+background-image: url(./img/守矢神社.jfif);
+min-height: 100%;
+}
+.pimg1, .pimg2, .pimg3{
+position: relative;
+opacity: 0.8;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+/* 视差用这个,固定图片 */
+}
+.section{
+
+opacity: 0.7;
+
+}
