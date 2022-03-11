@@ -1,0 +1,107 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+font-size: 10px;
+}
+html::before{
+content: "";
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: -1;
+background: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%) no-repeat;
+}
+.box{
+display: flex;
+overflow: hidden;
+width: 90rem;
+height: 55rem;
+background-color: rgba(255,255,255,60%);
+margin: 10% auto;
+border-radius: 1.5rem;
+box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+.box .left{
+position: relative;
+width: 35%;
+height: 100%;
+background-color: skyblue;
+}
+.box .left::before{
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background-image:  url(./灵梦唯美.jfif);
+background-size: cover;
+opacity: 0.8;
+/*为什么url不显示图片*/
+}
+.box .right{
+display: flex;
+width: 65%;
+flex-direction: column;
+/* 竖直排布 */
+align-items: center;
+}
+.box .right h4{
+color: rgb(144,129,241);
+font-size: 3rem;
+margin-top: 5rem;
+}
+.box .right form .acc{
+outline: none;
+width: 100%;
+height: 5rem;
+padding: 1rem 0 0 1.6rem;
+border: none;
+border-bottom: 1px solid rgb(144,120,241);
+background-color: rgba(0,0,0,0 );
+margin-top: 20px;
+}
+.right form .acc:focus{
+outline: none;
+color: rgb(219, 78, 172);
+/* 输入框文字颜色 */
+padding: 1rem 0 0 1.6rem;
+}
+.right .submit{
+width: 60%;
+height: 5rem;
+color: #f6f6f6;
+background-image: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%);
+font-size: 1.4rem;
+border: none;
+border-radius: 0.5rem;
+transition: 0.5s;
+/*无反应*/
+margin: 6rem 0 0 50%;
+transform: translateX(-50%);
+}
+.right .submit:hover{
+box-shadow: 0 0 2rem -0.5rem rgb(0 0 0 );
+transition: 0.5s;
+color: lightblue;
+}
+.right .fn{
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+width: 70%;
+}
+.right .fn a{
+font-size: 1.3rem;
+margin-top: 5rem;
+padding: 6rem;
+color: #666;
+}
+.right .fn a:hover{
+color: yellowgreen;
+}
+.box .left:hover{
+background-image: url(./主角组.jfif);
+background-size: cover;
+}

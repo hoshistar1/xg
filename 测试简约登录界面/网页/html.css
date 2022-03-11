@@ -1,0 +1,53 @@
+*{
+padding: 0;
+margin: 0;
+list-style: none;
+color: #16120f;
+}
+html{
+background-image: url(./八云紫.jpg);
+
+}
+body{
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: '华文仿宋';
+height: 1000vh;
+display: flex;
+background-image: linear-gradient(to right,#a18cd1,#ce72ba);
+}
+.head{
+display:flex;
+justify-content:center;
+}
+.q{
+background-color: #a972ce;
+width: 248px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+transition: 0.3s;
+cursor: pointer;
+
+}
+.q:hover{
+background-color: #d15a39;
+}
+.q li:hover{
+background-color: #ffb29d;
+}
+.q ul li{
+height: 0;
+transition: 0.2s;
+opacity: 0;
+transform: translateY(-35px);
+background-color: #e07a5f;
+}
+a{
+    text-decoration: none;
+}
+.q:hover li{
+height: 65px;
+opacity: 1;
+transform: translateY(0);
+}

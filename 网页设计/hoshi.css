@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    }
+    html{
+        background: url(./巫女.jfif)no-repeat;
+        background-size: cover;
+    }
+    html::before{
+width: 100%;
+height: 100%;
+backdrop-filter: blur(0.2rem);
+content: '';
+position: fixed;
+/* 前两行设置模糊 */
+    }
+    .miko{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 2rem -0.5rem rgb(0 0 0 );
+    /* 界面阴影 */
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(225, 225,225,0.5);
+    /* 盒子透明效果 */
+    border-radius: 1.5rem;
+    }
+    .miko1{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: calc(-100px/2);
+    }
+.h2{
+margin: 0;
+padding: 0 0 20px;
+color: #9032e7;
+text-align: center;
+font-family: '华文行楷';
+}
+    .miko input{
+width: 100%;
+margin-bottom: 20px;
+font-size: 15px;
+font-family: '华文隶书';
+    }
+    .miko input:focus{
+        color: rgb(219, 78, 172);
+        /* 文本输入颜色 */
+        font-family: '华文隶书';
+        font-size: 15px;
+    }
+.miko input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+color: rgb(80, 20, 220);
+background-image: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%);
+font-family: "方正舒体";
+border-radius: 20px;
+font-size: 20px;
+transition: 0.7s;
+}
+.miko input[type="submit"]:hover
+{
+    box-shadow: 0 0 2rem -0.5rem rgb(0 0 0 );
+color: #262626;
+}
+    
+    .miko a{
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+    }
+.mo {
+width: 100px;
+padding: 10px 10px;
+background: rgba(255, 255, 255, 0.5);
+outline: none;
+border: none;
+border-radius: 30px;
+margin-left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

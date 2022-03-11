@@ -1,0 +1,284 @@
+.doa{
+position: relative;
+top: 260px;
+}
+.head{
+margin:0 auto ;
+width: 400px;
+height: 350px;
+background-color: #008ee3;
+position: relative;
+border-radius: 55% 55% 50% 50%;
+border: 2px solid;
+}
+.face{
+width: 310px;
+height: 260px;
+background-color: snow;
+border-radius: 55% 55% 45% 45%;
+position: relative;
+top: 90px;
+left: 45px;
+}
+.face>div:first-child{
+width: 80px;
+height: 100px;
+border-radius: 50%;
+border: 2px #000 solid;
+background-color: snow;
+float: left;
+position: relative;
+top: -40px;
+left: 71px;
+z-index: 50;
+}
+.face>div:last-child{
+width: 80px;
+height: 100px;
+border-radius: 50%;
+border: 2px #000 solid;
+background-color: snow;
+float: left;
+top: -40px;
+left: 71px;
+position: relative;
+z-index: 50;
+}
+.face>div:first-child div {
+width: 20px;
+height: 25px;
+background-color: #000;
+border-radius: 50%;
+position: absolute;
+top: 45px;
+left: 60px;
+transition: all 1s;
+}
+.face>div:first-child div p{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #ffffff;
+position:absolute;
+top: -3px;
+left: 10px;
+}
+.face>div:last-child div {
+width: 20px;
+height: 25px;
+background-color: #000;
+border-radius: 50%;
+position: absolute;
+top: 45px;
+right: 60px;
+}
+    .face>div:last-child div p{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color:#ffffff;
+position:absolute;
+top: -3px;
+left: 3px;
+}   
+.nose{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: #c70000;
+position: absolute;
+top: 130px;
+left: 50%;
+margin-left: -15px;
+z-index: 10;
+}
+.nose p{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+position: absolute;
+background-color: #ffffff;
+top: -3px;
+margin-left: 20px;
+z-index: 10;
+}
+.nose1{
+width: 2px;
+height: 130px;
+background-color: #000;
+position: absolute;
+top: 160px;
+left: 50%;
+margin-left: -1px;
+z-index: 10;
+}
+.mouth{
+width: 250px;
+height: 200px;
+border-radius: 50%;
+background-color: snow;
+border-bottom: 2px #000 solid;
+margin:-230px auto;
+position: relative;
+top: 78px;
+transition: all 1s;
+}
+.beard{
+width: 120px;
+height: 40px;
+border-top: 2px #000 solid;
+border-radius: 10% 90%;
+position: absolute;
+left: 50%;
+top: 150px;
+margin-left: -170px;
+z-index: 100;
+}
+.beard1{
+width: 120px;
+height: 40px;
+border-top: 2px #000 solid;
+border-radius: 10% 90% 10% 90%;
+position: absolute;
+left: 50%;
+top: 180px;
+margin-left: -170px;
+z-index: 100px;
+}
+.beard2{
+    width: 120px;
+    height: 40px;
+    border-top: 2px #000 solid;
+    border-radius: 10% 90% 10% 90%;
+    position: absolute;
+    left: 50%;
+    top: 210px;
+    margin-left: -170px;
+    z-index: 100px;
+    }
+.beard3{
+        width: 120px;
+        height: 40px;
+        border-top: 2px #000 solid;
+        border-radius: 90% 10% 90% 10%;
+        position: absolute;
+        left: 50%;
+        top: 150px;
+        margin-left: 50px;
+        z-index: 100;
+        }
+.beard4{
+        width: 120px;
+        height: 40px;
+        border-top: 2px #000 solid;
+        border-radius: 90% 10% 90% 10%;
+        position: absolute;
+        left: 50%;
+        top: 180px;
+        margin-left: 50px;
+        z-index: 100px;
+        }
+ .beard5{
+            width: 120px;
+            height: 40px;
+            border-top: 2px #000 solid;
+            border-radius: 90% 10% 90% 10%;
+            position: absolute;
+            left: 50%;
+            top: 210px;
+            margin-left: 50px;
+            z-index: 100px;
+            }  
+
+.neck{
+width: 330px;
+height: 200px;
+border-radius: 50%  50% 50% 50%; 
+background: #e30000;
+margin: 80px auto;
+z-index: 100;
+border: 2px solid;
+}        
+.neck p:first-child{
+border: 2px #000 solid;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background: #ffdd2e;
+position: absolute;
+left: 50%;
+margin-left: -22px;
+transition: all 1s;
+top: 600px;
+}    
+.neck p:nth-child(2){
+border: 2px #000 solid;
+border-radius: 5px;
+width: 44px;
+height: 5px;
+background: #ffdd2e;
+position: absolute;
+left: 50%;
+margin-left: -24px;
+transition: all 1s;
+top: 615px;
+}
+.neck p:nth-child(3){
+border: 2px #000 solid;
+border-radius: 50%;
+width: 8px;
+height: 8px;
+background: #6c5844;
+position: absolute;
+left: 50%;
+margin-left: -6px;
+transition: all 1s;
+top: 625px;
+}
+.neck p:nth-child(4){
+    width: 2px;
+    height: 8px;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    transition: all 1s;
+    top: 635px;
+    }
+.neck:hover p:first-child{
+width: 60px;
+height: 60px;
+left: 50%;
+margin-left: -30px;
+}
+.neck:hover p:nth-child(2){
+width: 66px;
+height: 7.5px;
+left: 50%;
+margin-left: -33px;
+top: 625px;
+}
+.neck:hover p:nth-child(3){
+width: 12px;
+height: 12px;
+left: 50%;
+margin-left: -6px;
+top: 635px;
+    }
+.neck:hover p:nth-child(4){
+width: 2px;
+height: 12px;
+left: 50%;
+margin-left: 1px;
+top: 649px;
+        }   
+.mouth:hover{
+border-radius: 10%;
+width: 180px;
+height: 200px;
+transition: all 1s;
+}       
+:hover.face>div:first-child div{
+left: 0px;
+transition: all 1s;
+}
